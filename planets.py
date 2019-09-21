@@ -5,8 +5,9 @@ def weight_on_planets():
    mars_weight = earth_weight * 0.38
    # Converts user's earth weight into their equivalent jupiter weight
    jupiter_weight = earth_weight * 2.34
-   print("\nOn Mars you would weigh " + str(mars_weight) + " pounds.\nOn Jupiter you would weigh " + str(jupiter_weight) +
-         " pounds.")
+   text = "\nOn Mars you would weigh " + str(mars_weight) + " pounds.\nOn Jupiter you would weigh " + \
+          str(jupiter_weight) + " pounds."
+   print(text)
 
 
 if __name__ == '__main__':
