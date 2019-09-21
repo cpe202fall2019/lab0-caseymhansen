@@ -1,6 +1,9 @@
+import io
+import sys
 import unittest
-import io, sys
+
 from planets import *
+
 
 class Test_planets(unittest.TestCase):
 
@@ -14,4 +17,4 @@ class Test_planets(unittest.TestCase):
 
 
 if __name__ == "__main__":
-        unittest.main()
+    unittest.main()
